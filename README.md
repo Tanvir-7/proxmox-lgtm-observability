@@ -209,20 +209,6 @@ Screenshot: `dashboard-node-exporter.png` — Node Exporter Full dashboard showi
 
 Logs from all nodes are queryable in real time through Grafana Explore. Example queries used in this project:
 
-```
-# All logs from a specific host
-{host="lab-node"}
-
-# Filter errors across all hosts
-{job="systemd-journal"} |= "error" | logfmt
-
-# Graph error rate over time
-count_over_time({job="systemd-journal"} |= "error" [1m])
-```
-
-Screenshot: `loki-logql-query.png` — Grafana Explore running a LogQL query and returning filtered log lines from lab-node
-
----
 
 ## Challenges Solved
 
@@ -240,7 +226,6 @@ Alloy uses the **River configuration language**, which does not use semicolons a
 ### LXC changing IP address after reboot
 The monitoring LXC was on DHCP and received a different IP after a reboot, breaking Alloy's push endpoint on all monitored nodes. Fixed by assigning a static IP directly in the Proxmox LXC network configuration panel.
 
----
 
 ## What I Learned
 
