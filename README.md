@@ -1,4 +1,4 @@
-# Project 2 — Enterprise Monitoring & Observability Stack
+# Enterprise Monitoring & Observability Stack
 
 > Built on top of [Project 1 — Proxmox + pfSense VLAN Network Segmentation](../project-1)
 
