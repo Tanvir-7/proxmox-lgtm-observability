@@ -156,9 +156,9 @@ All four data sources are **automatically provisioned** by the image — fully f
 | Tempo | Tempo | Distributed trace queries |
 | Pyroscope | Pyroscope | Continuous profiling flame graphs |
 
-Screenshot: `grafana-datasources.png` — Grafana Connections page showing all 4 data sources listed and connected
+<!--Screenshot: `grafana-datasources.png` — Grafana Connections page showing all 4 data sources listed and connected -->
+![screenshot: grafana-datasource](Screenshots/Monitoring/03-grafana-datasources.png)
 
-Screenshot: `grafana-datasource-test.png` — Each data source showing green "Data source connected" status after testing
 
 ---
 
