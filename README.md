@@ -115,7 +115,7 @@ A dedicated **privileged Ubuntu 22.04 LXC container** on Proxmox hosts the entir
 | Privileged | Yes |
 | Kernel Features | Nesting, keyctl |
 
-Screenshot: `proxmox-lxc-summary.png` — Proxmox dashboard showing lxc-monitor running with resource usage
+![description](Screenshots/Monitoring/01-Monitoring%20lxc%20summery.png)
 
 ---
 
