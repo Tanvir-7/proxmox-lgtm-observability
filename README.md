@@ -175,9 +175,10 @@ All four data sources are **automatically provisioned** by the image — fully f
 - System load average (1m, 5m, 15m)
 - File descriptors, context switches, running processes
 
-Screenshot: `alloy-status.png` — `systemctl status alloy` showing active (running) on lab-node
+<!-- Screenshot: `alloy-status.png` — `systemctl status alloy` showing active (running) on lab-node -->
+![alloy-status](Screenshots/Monitoring/04-alloy-status.png)
 
-Screenshot: `alloy-logs-success.png` — Alloy journal showing successful WAL replay and confirmed connection to Mimir
+
 
 ---
 
@@ -192,9 +193,9 @@ Alloy simultaneously tails the **systemd journal** on each monitored node and sh
 | `host` | Hostname of the source node (e.g. `lab-node`) |
 | `job` | `systemd-journal` |
 
-Screenshot: `grafana-explore-loki.png` — Grafana Explore showing live log stream from lab-node with host and job labels visible
+<!-- Screenshot: `grafana-explore-loki.png` — Grafana Explore showing live log stream from lab-node with host and job labels visible-->
+![loki-log](Screenshots/Monitoring/04-alloy-status.png)
 
-Screenshot: `loki-log-stream.png` — Real-time journal log entries flowing in from lab-node in the Grafana UI
 
 ---
 
