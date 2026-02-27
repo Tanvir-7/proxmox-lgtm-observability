@@ -194,7 +194,7 @@ Alloy simultaneously tails the **systemd journal** on each monitored node and sh
 | `job` | `systemd-journal` |
 
 <!-- Screenshot: `grafana-explore-loki.png` — Grafana Explore showing live log stream from lab-node with host and job labels visible-->
-![loki-log](Screenshots/Monitoring/04-alloy-status.png)
+![loki-log](Screenshots/Monitoring/05-loki-log-stream.png)
 
 
 ---
