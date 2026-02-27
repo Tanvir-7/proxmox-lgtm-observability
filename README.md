@@ -136,7 +136,8 @@ OTel Collector v0.146.1  -- started in 5 seconds
 
 All data is persisted in named Docker volumes, surviving container restarts and image updates.
 
-Screenshot: `docker-ps.png` — `docker ps` output showing otel-lgtm running with all 8 ports mapped
+<!--Screenshot: `docker-ps.png` — `docker ps` output showing otel-lgtm running with all 8 ports mapped -->
+![Screenshot: docker-ps.png]()
 
 Screenshot: `docker-logs-startup.png` — Container startup logs confirming all 6 services running with their startup times
 
