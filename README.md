@@ -1,6 +1,6 @@
 # Enterprise Monitoring & Observability Stack
 
-> Built on top of [Project 1 — Proxmox + pfSense VLAN Network Segmentation](../project-1)
+> Built on top of [Project 1 — Proxmox + pfSense VLAN Network Segmentation]()
 
 A fully self-hosted, production-grade monitoring and observability platform running on a Proxmox homelab. The stack provides real-time visibility into infrastructure health through unified logs, metrics, traces, and continuous profiling — all accessible through a single Grafana web interface.
 
@@ -139,9 +139,7 @@ All data is persisted in named Docker volumes, surviving container restarts and 
 <!--Screenshot: `docker-ps.png` — `docker ps` output showing otel-lgtm running with all 8 ports mapped -->
 ![Screenshot: docker-ps.png](Screenshots/Monitoring/02-docker%20ps.png)
 
-Screenshot: `docker-logs-startup.png` — Container startup logs confirming all 6 services running with their startup times
 
-Screenshot: `grafana-health.png` — Health check returning `"database": "ok"` and Grafana version 12.3.3
 
 ---
 
@@ -198,19 +196,6 @@ Alloy simultaneously tails the **systemd journal** on each monitored node and sh
 
 
 ---
-
-## Live Dashboards
-
-### Node Exporter Full
-
-Displays comprehensive real-time system metrics for every node running Alloy — imported from the Grafana community dashboard library (ID: 1860).
-
-Screenshot: `dashboard-node-exporter.png` — Node Exporter Full dashboard showing live CPU, RAM, disk, and network panels for lab-node
-
-### Log Exploration with LogQL
-
-Logs from all nodes are queryable in real time through Grafana Explore. Example queries used in this project:
-
 
 ## Challenges Solved
 
