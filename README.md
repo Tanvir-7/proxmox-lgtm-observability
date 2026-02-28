@@ -15,7 +15,6 @@ A fully self-hosted, production-grade monitoring and observability platform runn
 - [Data Sources](#data-sources)
 - [Metrics Collection — Grafana Alloy](#metrics-collection--grafana-alloy)
 - [Log Collection — Loki](#log-collection--loki)
-- [Live Dashboards](#live-dashboards)
 - [Challenges Solved](#challenges-solved)
 - [What I Learned](#what-i-learned)
 
