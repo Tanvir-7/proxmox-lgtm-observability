@@ -224,5 +224,4 @@ The monitoring LXC was on DHCP and received a different IP after a reboot, break
 
 ---
 
-> **Project 1:** [Proxmox + pfSense Enterprise VLAN Network Segmentation](../project-1)
-> **Project 3:** Coming soon
+
