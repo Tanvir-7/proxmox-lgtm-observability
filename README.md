@@ -1,6 +1,6 @@
 # Enterprise Monitoring & Observability Stack
 
-> Built on top of [Project 1 — Proxmox + pfSense VLAN Network Segmentation]()
+> Built on top of [Project 1 — Proxmox + pfSense VLAN Network Segmentation](Tanvir-7/network-segmentation-homelab)
 
 A fully self-hosted, production-grade monitoring and observability platform running on a Proxmox homelab. The stack provides real-time visibility into infrastructure health through unified logs, metrics, traces, and continuous profiling — all accessible through a single Grafana web interface.
 
