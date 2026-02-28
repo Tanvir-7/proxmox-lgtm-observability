@@ -126,12 +126,12 @@ The entire observability backend runs as a **single Docker container** using the
 **Confirmed running services from actual container startup:**
 
 ```
-Grafana        v12.3.3   -- started in 95 seconds
-Loki           v3.6.6    -- started in 6 seconds
-Prometheus     v3.9.1    -- started in 5 seconds
-Tempo          v2.10.1   -- started in 7 seconds
-Pyroscope      v1.18.1   -- started in 6 seconds
-OTel Collector v0.146.1  -- started in 5 seconds
+Grafana        v12.3.3   
+Loki           v3.6.6    
+Prometheus     v3.9.1    
+Tempo          v2.10.1   
+Pyroscope      v1.18.1   
+OTel Collector v0.146.1  
 ```
 
 All data is persisted in named Docker volumes, surviving container restarts and image updates.
